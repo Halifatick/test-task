@@ -5,6 +5,7 @@ import viteCompression from 'vite-plugin-compression'
 
 const config = defineConfig(
     ({mode}) => ({
+        base: "/test-task/",
         plugins: [
             vue(),
             viteCompression({
