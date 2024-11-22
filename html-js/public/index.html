@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Форма с зависимыми списками</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<h1>Выбор данных</h1>
+<form id="data-form">
+  <label for="city">Город:</label>
+  <select id="city" name="city">
+    <option value="">Выберите город</option>
+  </select>
+
+  <label for="workshop">Цех:</label>
+  <select id="workshop" name="workshop">
+    <option value="">Выберите цех</option>
+  </select>
+
+  <label for="employee">Сотрудник:</label>
+  <select id="employee" name="employee">
+    <option value="">Выберите сотрудника</option>
+  </select>
+
+  <label for="team">Бригада:</label>
+  <select id="team" name="team">
+    <option value="">Выберите бригаду</option>
+  </select>
+
+  <label for="shift">Смена:</label>
+  <select id="shift" name="shift">
+    <option value="">Выберите смену</option>
+  </select>
+
+  <button type="button" id="save-btn">Сохранить</button>
+</form>
+
+<script src="script.js" defer></script>
+</body>
+</html>
